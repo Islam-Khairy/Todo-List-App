@@ -1,38 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  background: url('../public/backgrounds/1.jpg') center/cover no-repeat;
+}
+
+html {
+  font-size: 87.5%;
+}
+
 .App {
-  text-align: center;
+  z-index: 1;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App::before {
+  content: '';
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  z-index: -1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.todoListCard::-webkit-scrollbar,
+.todoCard::-webkit-scrollbar {
+  width: 8px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.todoListCard::-webkit-scrollbar-thumb {
+  background-color: rgba(136, 136, 136, 0.9);
+  border-radius: 10px !important;
+}
+
+.todoCard::-webkit-scrollbar-thumb {
+  background-color: rgba(136, 136, 136, 0.1);
+  border-radius: 10px !important;
+}
+
+.todoCard {
+  transition: all 0.3s !important;
+}
+
+.todoCard:hover {
+  transform: scale(1.01);
+  box-shadow: 0px 0.5rem 0.5rem rgba(0, 0, 0, 0.4);
+}
+
+.iconButton {
+  transition: all 0.5s !important;
+}
+
+.iconButton:hover {
+  transform: scale(1.1);
+}
+
+@font-face {
+  font-family: Alexandria;
+  src: url('../public/fonts/Alexandria-Black.ttf');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: Alexandria;
+  src: url('../public/fonts/Alexandria-ExtraBold.ttf');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: Alexandria;
+  src: url('../public/fonts/Alexandria-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Alexandria;
+  src: url('../public/fonts/Alexandria-SemiBold.ttf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Alexandria;
+  src: url('../public/fonts/Alexandria-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Alexandria;
+  src: url('../public/fonts/Alexandria-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Alexandria;
+  src: url('../public/fonts/Alexandria-Light.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Alexandria;
+  src: url('../public/fonts/Alexandria-ExtraLight.ttf');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: Alexandria;
+  src: url('../public/fonts/Alexandria-Thin.ttf');
+  font-weight: 100;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 10px;
+  padding: 10px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-text {
+  font-size: 18px;
+  font-weight: 500;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 440px) {
+  .todoTitle {
+    font-size: 14px !important;
+    max-width: 95%;
   }
-  to {
-    transform: rotate(360deg);
+  .todoDetails {
+    font-size: 12px !important;
+    max-width: 90%;
+  }
+  .footer-text {
+    font-size: 16px;
+  }
+  .iconButton {
+    margin-right: 3px;
+  }
+}
+
+@media (max-width: 360px) {
+  .footer-text {
+    font-size: 12px;
   }
 }

@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Todo-List-App/static/css/main.0a908150.css",
+    "main.js": "/Todo-List-App/static/js/main.fcd9758f.js",
+    "static/js/453.fb812ba5.chunk.js": "/Todo-List-App/static/js/453.fb812ba5.chunk.js",
+    "static/media/1.jpg": "/Todo-List-App/static/media/1.0f95758cfcdf16489a10.jpg",
+    "static/media/Alexandria-ExtraBold.ttf": "/Todo-List-App/static/media/Alexandria-ExtraBold.ac52cb7f1b6bff5c4692.ttf",
+    "static/media/Alexandria-SemiBold.ttf": "/Todo-List-App/static/media/Alexandria-SemiBold.9825eae4f22e4372d850.ttf",
+    "static/media/Alexandria-Bold.ttf": "/Todo-List-App/static/media/Alexandria-Bold.0cf36a1f1e325bcf6dcf.ttf",
+    "static/media/Alexandria-Medium.ttf": "/Todo-List-App/static/media/Alexandria-Medium.e529e0fe5e18e7ad22c4.ttf",
+    "static/media/Alexandria-Black.ttf": "/Todo-List-App/static/media/Alexandria-Black.6ae708e765675e6b0e46.ttf",
+    "static/media/Alexandria-ExtraLight.ttf": "/Todo-List-App/static/media/Alexandria-ExtraLight.0a123b1924fc6e4ad1a5.ttf",
+    "static/media/Alexandria-Light.ttf": "/Todo-List-App/static/media/Alexandria-Light.38ea9ca48ff224061348.ttf",
+    "static/media/Alexandria-Thin.ttf": "/Todo-List-App/static/media/Alexandria-Thin.b72b0ff79aa992e00a2f.ttf",
+    "static/media/Alexandria-Regular.ttf": "/Todo-List-App/static/media/Alexandria-Regular.4535b8eea67a5b9234dc.ttf",
+    "index.html": "/Todo-List-App/index.html",
+    "main.0a908150.css.map": "/Todo-List-App/static/css/main.0a908150.css.map",
+    "main.fcd9758f.js.map": "/Todo-List-App/static/js/main.fcd9758f.js.map",
+    "453.fb812ba5.chunk.js.map": "/Todo-List-App/static/js/453.fb812ba5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a908150.css",
+    "static/js/main.fcd9758f.js"
+  ]
+}
